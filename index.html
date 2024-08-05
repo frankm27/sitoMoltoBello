@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>080B30</title>
+    <style>
+        @font-face {
+            font-family: 'DS-Digital';
+            src: url('fonts/ds-digit.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'highcruiser';
+            src: url('fonts/highcruiser-personal-use-only.otf') format('opentype');
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('DossierModificato/2.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #1d1d39;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 1rem;
+            margin-top: 150px;
+            max-width: 800px;
+            margin: 150px auto;
+        }
+
+        #countdown {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-size: 8rem;
+            background-color: #1d1d39;
+            color: #0089DC;
+            padding: 10px 0;
+            text-align: center;
+            font-family: 'DS-Digital', 'Courier New', Courier, monospace;
+            z-index: 1000;
+        }
+
+        .digit, .colon {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        #title {
+            position: center;
+            top: 130px;
+            left: 0;
+            width: 100%;
+            font-size: 4rem;
+            color: #f7f8f8;
+            text-align: center;
+            font-family: 'highcruiser',monospace;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            border: none;
+            background-color: #0A0911;
+            z-index: 1000;
+            padding-top: 10px;
+        }
+        
+        #text {
+            position: center;
+            width: 99%;
+            font-size: 12px;
+            color: #f7f8f8;
+            text-align: center;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            border: none;
+            background-color: #0A0911;
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 100;
+        }
+
+        #DONA {
+            position: center;
+            width: 100%;
+            font-size: 4rem;
+            color: #f7f8f8;
+            text-align: center;
+            font-family: 'highcruiser', monospace;
+            border-radius: 1rem;
+            border: none;
+            background-color: #01CFFF;
+            z-index: 1000;
+        }
+        
+        #redirectButton {
+            position: center;
+            width: 100%;
+            font-size: 4rem;
+            color: #f7f8f8;
+            text-align: center;
+            font-family: 'highcruiser', monospace;
+            border-radius: 1rem;
+            border: none;
+            background-color: #01CFFF;
+            cursor: pointer;
+            margin: 20px 0px;
+        }
+
+        #redirectButton:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #1d1d39;
+            color: #f7f8f8;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+    </style>
+<body>
+    <header>
+        <h1>Sito</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="countdown">
+        <div class="digit" id="days"></div>
+        <div class="colon">:</div>
+        <div class="digit" id="hours"></div>
+        <div class="colon">:</div>
+        <div class="digit" id="minutes"></div>
+        <div class="colon">:</div>
+        <div class="digit" id="seconds"></div>
+    </div>
+    <main>
+        <section>
+            <div id="title">#080B30</div>
+            <div id="text">
+                il film parla Leonardo, un bambino timido e curioso, si sta preparando per andare a dormire, quando inizia ad 
+                avvertire la presenza di un’entità, dopo che il padre ha rimosso dei vecchi scatoloni da sopra al suo armadio. Come ogni sera aspetta che la madre vada a leggergli la storia della buonanotte, ma questa volta non arriva nessuno. Leonardo quindi va a cercarla, quando la trova però è impegnata ad allattare Teo, il fratellino nato da poco.  Il bambino torna in camera sua aspettando, ma si addormenta con il libro tra le mani. Durante la notte il forte pianto del neonato sveglia Leonardo il quale infastidito cerca un modo per farlo smettere. Leonardo così durante il silenzio della notte, con l’aiuto del mostro che vive sul suo armadio, prova a zittire il fratellino. Dopo vari tentativi, una strigliata dei suoi genitori e un litigio con il mostro Leonardo trova una soluzione.
+            </div>
+        </section>
+        <section>            
+            <div id="redirectButton">
+                <div id="DONA">DONA QUI</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        hey chatgpt, putyour function here
+        <p>© 2024 Il Mio Sito. Tutti i diritti riservati.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var countDownDate = new Date("Oct 14, 2024 23:59:59").getTime();
+
+            var countdownFunction = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+
+                if (distance < 0) {
+                    clearInterval(countdownFunction);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+
+            document.getElementById("redirectButton").addEventListener("click", function() {
+                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; //qui va messo il link
+            });
+        });
+    </script>
+</body>
+</html>
